@@ -1,8 +1,8 @@
 .head-wrapper{
     background: linear-gradient(145deg,#ecf9f7,#e9f8f5);
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px 100px;
+}
+.head{
+    max-width: 1200px;
 }
 .main-logo{
     width: 200px;
@@ -43,7 +43,7 @@
     color: #335dff;
 }
 .why-us{
-    width: 80%;
+    max-width: 1200px;
 }
 .midsection-text {
     padding: 65px;
@@ -63,7 +63,7 @@
     background-size: contain;
 }
 .features-grid {
-    width: 80%;
+    max-width: 1200px;
     padding: 50px;
 }
 .feature {
@@ -76,13 +76,14 @@
     margin: 0 auto;
 }
 .big-text {
-    padding: 100px;
+    padding: 75px;
+    margin-top: 50px;
 }
 .container.big-imgs {
     margin-bottom: 15px;
 }
 .highlights {
-    width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .features .card-body{
