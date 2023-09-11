@@ -255,6 +255,24 @@ a.carousel-control-next {
         padding-left: 30px;
     }
 }
-@media only screen and (max-width: 991px){
-    
+@media only screen and (max-width: 767px){
+    .col-md-6.feature-row {
+        margin-top: 1.5rem;
+    }
+    p.text-body-secondary.form.mt-2.ms-4 {
+        padding-left: 65px;
+    }
+    video.sample-video{
+        width: 100%;
+    }
+    a.carousel-control-prev {
+        position: relative;
+        top: 50px;
+        left: 73%;
+    }
+    a.carousel-control-next {
+        position: relative;
+        top: 26px;
+        left: 85%;
+    }
 }
