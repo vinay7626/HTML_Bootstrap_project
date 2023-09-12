@@ -281,3 +281,12 @@ a.carousel-control-next {
         height: 180px;
     }
 }
+@media only screen and (max-width: 364px){
+    .col-6.features {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .col-md-6.feature-row {
+        margin-top: 0;
+    }
+}
